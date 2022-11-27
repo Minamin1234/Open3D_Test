@@ -43,5 +43,7 @@ $ pip3 install numpy-stl
 
 - stlファイルから読み込み表示する
 ```python
-Mesh
+Mesh = o3d.io.read_triangle_mesh(".stl")
+Mesh.compute_vertex_normals()
+o3d.visualization.draw_geometries([Mesh],mesh_show_back_face=True)
 ```
