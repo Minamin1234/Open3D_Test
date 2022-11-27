@@ -1,24 +1,24 @@
 # Open3D_Test
-## ŠT—v
-Open3D‚Ì“®ìƒeƒXƒg/d—lŠm”F
+## æ¦‚è¦
+Open3Dã®å‹•ä½œãƒ†ã‚¹ãƒˆ/ä»•æ§˜ç¢ºèª
 
-## QlƒTƒCƒg
-[Open3DŒö®ƒhƒLƒ…ƒƒ“ƒg](http://www.open3d.org/docs/release/getting_started.html)
+## å‚è€ƒã‚µã‚¤ãƒˆ
+[Open3Då…¬å¼ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆ](http://www.open3d.org/docs/release/getting_started.html)
 
-## ƒCƒ“ƒXƒg[ƒ‹/“®ìŠm”F
-- Python‚Ìƒo[ƒWƒ‡ƒ“‚Í3.7~3.10‚ÅƒTƒ|[ƒg
+## ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«/å‹•ä½œç¢ºèª
+- Pythonã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã¯3.7~3.10ã§ã‚µãƒãƒ¼ãƒˆ
 ```shell
 $ pip install open3d
 ```
 
-- ƒo[ƒWƒ‡ƒ“‚ğŠm”F‚·‚é
+- ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã‚’ç¢ºèªã™ã‚‹
 ```py
 import open3d as o3d
 
 print(o3d.__version__)
 ```
 
-- API‚ğ‹N“®‚·‚é(Python‚©‚ç)
+- APIã‚’èµ·å‹•ã™ã‚‹(Pythonã‹ã‚‰)
 ```py
 import open3d as o3d
 
@@ -27,7 +27,21 @@ mesh.compute_vertex_normals()
 o3d.visualization.draw(mesh, raw_mode=True)
 ```
 
-- CLI‚©‚ç‹N“®‚·‚é
+- CLIã‹ã‚‰èµ·å‹•ã™ã‚‹
 ```shell
 $ open3d example visualization/draw
+```
+
+## ç ”ç©¶å®¤ç”¨
+- numpy-stlã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+```shell
+$ pip install numpy-stl
+```
+```shell
+$ pip3 install numpy-stl
+```
+
+- stlãƒ•ã‚¡ã‚¤ãƒ«ã‹ã‚‰èª­ã¿è¾¼ã¿è¡¨ç¤ºã™ã‚‹
+```python
+Mesh
 ```
